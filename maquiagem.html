@@ -9,22 +9,44 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-<center>
+
     <div class="auau">
         <h1 class="titulo">Xamuel, O Chupador de Pika</h1>
     </div>
     <br></br>
-    <video width="640" height="360" controls loop autoplay>
-        <source src="SnapInsta.io-Luna Beauty .mp4" type="video/mp4">
-    </video>
-
+<main>
+<div class="container">
+    <div class="xamuel1-container">
+        <img src="xamuel cachorra 2.png">
+    </div>
+        <video width="640" height="360" loop autoplay>
+            <source src="SnapInsta.io-Luna Beauty .mp4" type="video/mp4">
+        </video>
+    <div class="xamuel2-container">
+        <img src="xamuel cachorra-PhotoRoom.png">
+    </div>
+</div>
+</main>
     <h1>Você também acha que o Xamuel chupa rolas grandes e saborosas?</h1>
-        <button onclick="myFunction()">Sim</button>
+        <button onclick="botaoSim()">Sim</button>
         <span class="espaco"></span>
-        <button onclick="myFunction()">Claro</button>
-        <br><br><br><button onclick="myFunction2()">Não</button></br></br></br>
+        <button onclick="botaoClaro()">Claro</button>
+        <br><br><br><button onclick="botaoNao()">Não</button></br></br></br>
 <script>
-    function myFunction() {
+        function botaoClaro() {
+        var audio = new Audio('plimplim.mp3');
+        audio.play();
+
+        Swal.fire({
+            title: 'CORRETÍSSIMO',
+            text: 'XAMUEL DA A BUNDA PRA 15 CAVALOS DIFERENTES',
+            imageUrl: 'Nico.webp',
+            imageWidth: 400,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+        })
+    }
+    function botaoSim() {
         var audio = new Audio('plimplim.mp3');
         audio.play();
 
@@ -38,7 +60,7 @@
         })
     }
     
-    function myFunction2() {
+    function botaoNao() {
         var audio = new Audio('luan.mp3');
         audio.play();
         Swal.fire({
@@ -51,7 +73,7 @@
         })   
     }
 </script>
-</center>
+
     </head>
 </html>
 
